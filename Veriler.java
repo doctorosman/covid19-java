@@ -25,28 +25,28 @@ public class Veri {
 		
 	}
 
-	public int toplamVaka() {
-		return Integer.parseInt(worldtotalcases);
+	public String toplamVaka() {
+		return worldtotalcases;
 	}
 	
-	public int toplamOlum() {
-		return Integer.parseInt(worldtotaldeaths);
+	public String toplamOlum() {
+		return worldtotaldeaths;
 	}
 	
-	public int toplamIyilesen() {
-		return Integer.parseInt(worldtotalrecovered);
+	public String toplamIyilesen() {
+		return worldtotalrecovered);
 	}
 	
-	public int Vaka() {
-		return Integer.parseInt(turkeytotalcases);
+	public String Vaka() {
+		return turkeytotalcases;
 	}
 	
-	public int Olum() {
-		return Integer.parseInt(turkeytotaldeaths);
+	public String Olum() {
+		return turkeytotaldeaths;
 	}
 	
-	public int Iyilesen() {
-		return Integer.parseInt(turkeytotalrecovered);
+	public String Iyilesen() {
+		return turkeytotalrecovered;
 	}
 	
 }
